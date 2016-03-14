@@ -1,7 +1,9 @@
 Picaso Serial C Interface
 =========================
 
-C library implementation for 4D Systems Serial Environment for Picaso based modules.
+_Unofficial_ C library implementation for 4D Systems Serial Environment for Picaso based modules.
+
+For official implementations look for [4D Systems github page](https://github.com/4dsystems).
 
 This library contains only function parts that will turn parameters to correct byte sequences using provided macros for sending and receiving bytes over serial line. Thus this library should be usable in multiple environments and actual libraries.
 
