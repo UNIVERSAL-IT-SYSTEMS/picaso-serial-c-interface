@@ -16,6 +16,8 @@ Installation and usage
 
 Copy or use git submodule to get this library into e.g. subfolder "lib" of your project/library. Create 2 files based on `4d_pse2_example.h` and `4d_pse2_example.c` in your project and make sure the include directives work correctly. You can use relative paths or add this library to gcc search path.
 
+The idea is that you will compile the file you created instead of anything from this library directly. This is so we can compile against any functions you define for the write and read methods.
+
 Check next section and the example files to find out how to use the library.
 
 Macros you can and need to define

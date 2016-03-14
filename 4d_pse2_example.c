@@ -1,6 +1,10 @@
+// as usual, include our own header, which will define the write and read
+// functions for the actual implementation
 #include "4d_pse2_example.h"
+// include the library function implementations.
 #include "4d_pse2_impl/4d_pse2_v1.3.inc.c"
 
+// includes for this example
 #include <stdio.h>
 
 void serial_putchar(uint8_t value) {
