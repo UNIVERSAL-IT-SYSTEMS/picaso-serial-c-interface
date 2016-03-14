@@ -13,5 +13,8 @@ uint8_t serial_getchar(void) {
 
 
 int main(void) {
+    const l4d_pse2_colour_t red = L4D_PSE2_RGB(255, 0, 0);
+
     l4d_pse2_gfx_Cls();
+    l4d_pse2_gfx_Circle(100, 100, 5, red);
 }
